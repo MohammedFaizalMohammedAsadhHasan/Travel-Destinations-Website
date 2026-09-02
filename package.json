@@ -1,0 +1,15 @@
+{
+  "name": "travel-destinations-website",
+  "version": "1.0.0",
+  "description": "Discover breathtaking travel destinations across the globe. Plan your next adventure with Wanderlust.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'Build ready'",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

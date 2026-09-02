@@ -1,0 +1,6 @@
+{
+  "name": "Wanderlust - Travel Destinations",
+  "description": "Discover breathtaking travel destinations across the globe. Plan your next adventure with Wanderlust.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
