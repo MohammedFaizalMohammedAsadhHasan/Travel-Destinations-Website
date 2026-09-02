@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust | Home</title>
+    <meta name="description" content="Discover breathtaking travel destinations across the globe. Plan your next adventure with Wanderlust.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar" id="navbar">
+        <a href="index.html" class="logo">Wanderlust.</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <button class="btn-primary">Book Now</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Discover the Unknown</h1>
+                <p>Embark on unforgettable journeys to the most breathtaking destinations on Earth.</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Where do you want to go?" id="searchInput">
+                    <button class="btn-search">Explore</button>
+                </div>
+            </div>
+            <div class="hero-bg"></div>
+        </section>
+
+        <section class="destinations preview">
+            <h2>Featured Destinations</h2>
+            <p class="section-subtitle">A glimpse into our most popular locations</p>
+            <div class="grid-container" id="destinationsGrid">
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&q=80&w=800');" aria-label="Paris, France"></div>
+                    <div class="card-info">
+                        <h3>Paris, France</h3>
+                        <p>The city of light, romance, and culture.</p>
+                        <button class="btn-outline">View Details</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?auto=format&fit=crop&q=80&w=800');" aria-label="Kyoto, Japan"></div>
+                    <div class="card-info">
+                        <h3>Kyoto, Japan</h3>
+                        <p>Ancient temples and stunning cherry blossoms.</p>
+                        <button class="btn-outline">View Details</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1512100356356-de1b84283e18?auto=format&fit=crop&q=80&w=800');" aria-label="Santorini, Greece"></div>
+                    <div class="card-info">
+                        <h3>Santorini, Greece</h3>
+                        <p>Breathtaking sunsets and white-washed houses.</p>
+                        <button class="btn-outline">View Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="center-btn">
+                <a href="destinations.html" class="btn-primary" style="display: inline-block; margin-top: 3rem;">View All Destinations</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h2>Wanderlust.</h2>
+                <p>Your journey begins here.</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><strong>Explore</strong></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="#">Tours</a></li>
+                    <li><a href="#">Hotels</a></li>
+                </ul>
+                <ul>
+                    <li><strong>Company</strong></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wanderlust. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
